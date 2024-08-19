@@ -1,0 +1,79 @@
+html {
+    background-color: rgba(158, 180, 226, 0.1);
+}
+.heading {
+    background-image: url("E-sits.png");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    margin: auto;
+    padding-top: 80px;
+}
+.heading h3 {
+    text-align: start;
+    padding: 20px;
+    font-family: cursive;
+}
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px;
+    grid-gap: 40px
+}
+.about {
+    max-width: 800px;
+    text-align: left;
+}
+img {
+    max-width: 800px;
+    align-items: right;
+}
+.photo {
+    margin-top: 100px;
+}
+
+p {
+    font-size: 26px;
+}
+
+footer {
+    width: 100%;
+    border: solid 3px #9eb4e2;
+    margin: 30px;
+    padding: 20px;
+    font-size: 26px;
+    text-align: center;
+}
+.contactlabel {
+    color: rgb(158, 180, 226);
+}
+.servicelist {
+    margin:0;
+    text-align: center;
+}
+ul {
+    font-size: 26px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    img{
+        max-width: 100%;
+    }
+    .main {
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+    footer {
+        width: 90%;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    }
+}
